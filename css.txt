@@ -1,0 +1,21 @@
+/* 🎯 Estilo padrão para telas grandes (desktop e acima) */
+body {
+  font-size: 18px;
+  background-color: white;
+}
+
+/* 📱 Estilo para tablets (até 768px de largura) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: lightgray;
+  }
+}
+
+/* 📲 Estilo para celulares (até 480px de largura) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: #f0f0f0;
+  }
+}

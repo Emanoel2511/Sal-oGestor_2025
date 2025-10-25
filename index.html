@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>SalãoGestor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+      background-color: #43a047;
+      padding: 10px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section img {
+      max-width: 60%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding: 40px 0;
+    }
+
+    .imagem-link {
+      display: block;
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      background-color: #fff;
+    }
+
+    .imagem-link:hover {
+      transform: scale(1.05);
+    }
+
+    .imagem-link img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .form-section {
+      max-width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin-top: 15px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .checkbox {
+      margin-top: 15px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .faixa-contato {
+      background-color: #e0e0e0;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .campo {
+      margin: 10px 0;
+    }
+
+    .campo input {
+      padding: 10px;
+      width: 300px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+.imagem-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.imagem-link:hover {
+  transform: scale(1.05);
+}
+
+.imagem-link img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+	
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>SalãoGestor</h1>
+    <nav>
+      <ul>
+        <li><a href="#Início">Início</a></li>
+        <li><a href="#">Teste Grátis</a></li>
+        <li><a href="#">Preços</a></li>
+        <li><a href="#">SalãoGestor</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://manage.wix.com/dashboard/9cc69cf1-1531-413b-88dc-b4ab96785b9c/wix-portfolio/projects" target="_blank">Blog</a></li>
+        <li><a href="#whatsapp">whatsapp</a></li>
+		<li><a href="#Telefone">Telefone</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+    <div class="banner">Plataforma Digital para Salões de Beleza</div>
+  </header>
+
+  <!-- Introdução -->
+  <section class="section">
+    <h2>Organize com inteligência. Encante com beleza.</h2>
+    <img src="C:\Users\Emanoel\Desktop\SalãoGestor\Imagens\imagemdisp.JPG" alt="Imagem de demonstração">
+    <h2>O Melhor Sistema para seu Salão de Beleza</h2>
+    <p>Veja tudo que o SalãoGestor Software faz por você!</p>
+  </section>
+
+  <!-- Acesso ao sistema -->
+  <section class="section">
+    <h2>Acesse o Sistema SalãoGestor pelo Computador ou Aplicativo</h2>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section class="cards">
+    <div class="card">
+      <h3>APP do Cliente</h3>
+      <ul>
+        <li>Agendamento</li>
+        <li>Produtos</li>
+        <li>Notificações</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Agenda</h3>
+      <ul>
+        <li>Agendamento</li>
+        <li>Produtos</li>
+        <li>Notificações</li>
+        <li>Promoções</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>APP do Salão</h3>
+      <ul>
+        <li>Agendamento</li>
+        <li>Cadastros</li>
+        <li>Painel de Atendimentos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Visualização das telas -->
+  <section class="section">
+    <h2>Visualização das Telas</h2>
+ <div class="container">
+ 
+ 
+     <a href="pagina-notebook.html" class="imagem-link">
+      <img src="C:\Users\Emanoel\Desktop\SalãoGestor\Imagens\tablet.JPG" alt="Notebook com Agenda">
+    </a>
+    <a href="pagina-tablet.html" class="imagem-link">
+      <img src="C:\Users\Emanoel\Desktop\SalãoGestor\Imagens\not.JPG" alt="Tablet com Agenda">
+    </a>
+	<a href="pagina-tablet.html" class="imagem-link">
+      <img src="C:\Users\Emanoel\Desktop\SalãoGestor\Imagens\celular.JPG" alt="Tablet com Agenda">
+    </a>
+
+  </div>
+  </section>
+  
+ 
+ 
+	  
+	    <!-- Contatos -->
+<section class="faixa-contato">
+   <section class="faixa-Whats">
+    <h2>Contatos SalãoGestor</h2>
+    <div class="campo">
+      <label for="Telefone">📞 Telefone:</label>
+      <input type="text" id="Telefone" name="Telefone" placeholder="(11) 97324-4000">
+    </div>
+    <div class="campo">
+      <label for="whatsapp">💬 WhatsApp:</label>
+      <input type="text" id="whatsapp" name="whatsapp" placeholder="(11) 97324-4000">
+    </div>
+    <div class="campo">
+      <label for="email">📧 E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="salaogestor@gmail.com">
+    </div>
+</section>
+
+
+
+
+
+
+<button onclick="window.location.href='index.html'">Voltar ao Início</button>
+
+  <!-- Formulário de contato -->
+  <section class="form-section" id="contato">
+   <section class="form-section" id="whatsapp">
+    <h2>Entre em contato  Conosco</h2>
+    <form action="contato.php" method="POST" onsubmit="return validarFormulario()">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="Telefone">Telefone (com DDD):</label>
+      <input type="text" id="Telefone" name="Telefone" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <label class="checkbox">
+        <input type="checkbox" name="privacidade" required>
+        Eu concordo com a Política de Privacidade do SalãoGestor Software.
+      </label>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script>
+    function validarFormulario() {
+      const checkbox = document.querySelector('input[name="priv
+	  
+	  
+
+
