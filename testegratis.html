@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Teste Grátis - SalãoGestor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #6a1b9a, #8e24aa);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .cta {
+      background-color: #fff;
+      color: #333;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .cta h2 {
+      text-align: center;
+      color: #6a1b9a;
+      margin-bottom: 20px;
+    }
+
+    .cta p {
+      font-size: 1.1em;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    input {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 14px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #4a148c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      background-color: rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Transforme seu salão com SalãoGestor</h1>
+    <p>Teste gratuitamente a plataforma que está revolucionando a gestão de salões de beleza. Agendamento inteligente, equipe organizada e clientes encantados — tudo na palma da sua mão.</p>
+  </header>
+
+  <section class="cta">
+    <h2>Solicite seu Teste Grátis</h2>
+    <p>Preencha seus dados abaixo e receba acesso exclusivo para experimentar o SalãoGestor sem custo.</p>
+
+    <form action="contato.php" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Quero Testar Grátis</button>
+    </form>
+  </section>
+
+  <footer>
+    SalãoGestor © 2025 — Tecnologia que empodera beleza
+  </footer>
+
+</body>
+</html>
