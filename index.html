@@ -321,11 +321,16 @@
     </form>
   </section>
 
-  <script>
-    function validarFormulario() {
-      const checkbox = document.querySelector('input[name="priv
-	  
-	  
+ <script>
+  function validarFormulario() {
+    const checkbox = document.querySelector('input[name="privacidade"]');
+    if (!checkbox.checked) {
+      alert("Você precisa concordar com a Política de Privacidade.");
+      return false;
+    }
+    return true;
+  }
+</script>
 
 
 
